@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 78px;
+}
+.container p {
+    color: #878787;
+}
+#header{
+    width: 100%;
+    height: 75px;
+    padding-top: 25px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.container-nav{
+    display: flex;
+}
+#img-nav{
+    width: 54px;
+    height: 45px;
+}
+.img-nav{
+    height: 40px;
+    width: 40px;
+}
+.nav-logo{
+    flex-direction: left;
+    margin-left: 20%;
+}
+.logo-text{
+    flex-direction: left;
+}
+#text-logo{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.navbar{
+  flex-direction: right;
+}
+.navbar{
+    color: #3B3736;
+    font-size: 0.8em;
+    padding: 10px;
+}
+.right4, .right2, .right3{
+    margin-left: 30px;
+}
+.right1{
+    flex-direction: right;
+    margin-left: 25%;
+}
+
+#footer{
+    width: 100%;
+    height: 84px;
+    bottom: 0;
+    clear: both;
+    background-color: #293B52;
+    display: flex;
+    flex-direction: row;
+}
+.left-footer{
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    padding-top: 33px;
+    margin-left: 20%;
+    font-style: normal;
+    font-weight: normal;
+    font-family: serif;
+}
+.img-footer{
+    width: 19px;
+    height: 19px;
+}
+.img2, .img3, .img4, .img5{
+    margin-left: 18px;
+}
+.right-footer{
+    display: flex;
+    flex-direction: row;
+    color: #F8D16C;
+    margin-left: 30%;
+    padding-top: 33px;   
+    font-size: 12px; 
+}
+.text2, .text3{
+    margin-left: 23px;
+}
+.why-head{
+    font-size: 50px;
+}
+
+body p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+}
+body h1, h2{
+    font-family: 'Playfair Display', serif;
+}
+
+.development-text, .first-year-heading, .second-year-heading{
+    font-family: 'Playfair Display', serif;
+}
+
+.page-heading{
+    background-image: url('banner.png');
+    margin-top: 100px;
+}
+
+
+.first-year-test, .first-year-projects, .second-year-projects{
+    background-color: #F7F7F7;
+}
+
+
+.first-year, .first-year-test, .first-year-projects, .second-year, .second-year-projects{
+    margin-top: 40px;
+}
+
+
+.second-year-projects{
+    margin-bottom: 40px;;
+}
+
+
+.first-year-test, .first-year-projects, .second-year-projects{
+    padding: 30px;
+}
+
+
+.winter-assignment{
+    height: 350px;
+    width: 100%;
+}
+
+.codeditch{
+    margin-top: 20px;
+    float: left;
+    height: 80%;
+    width: 47%;
+    padding-right: 15px;
+    border-right: 2px solid black;
+}
+
+.Little-Horcruxes{
+    margin-top: 20px;
+    width: 47%;
+    height: 80%;
+    float: right;
+}
+
+.assignment-headings{
+    font-family: Nunito Sans;
+    padding-bottom: 30px;
+    font-size: 1.5em;
+}
+
+
+.submission{
+    padding-bottom: 5px;
+    color: #666666;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+body a{
+    text-decoration: none;
+    font-family: Nunito Sans;
+    color: black;
+}
+
+
+.download{
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}
+
+.download-text{
+    margin-top: 20px;
+}
+
+.main-heading{
+    text-align: center;
+}
+
+
+.development-text{
+    padding-top: 70px;
+    font-size: 2em;
+}
+
+.page-heading{
+    height: 200px;
+}
+
+.heading-box{
+    
+    position: absolute;
+    z-index: -1;
+    background-color: #F8D16C;
+    margin-left: 100px;
+    width: 270px;
+    height: 28px;
+}
+.box-heading{
+    position: relative;
+}
+.heading-box2{
+    
+    position: absolute;
+    z-index: -1;
+    background-color: #F8D16C;
+    margin-left: 100px;
+    width: 310px;
+    height: 28px;
+}
+.box-heading2{
+    position: relative;
+}
+.heading-box3{
+    position: absolute;
+    z-index: 1;
+    background-color: #F8D16C;
+    margin-left: 46.5%;
+    width: 260px;
+    height: 40px;
+}
+.box-heading3{
+    position: relative;
+    z-index: 2;
+    font-size: 48px;
+    font-family: Playfair Display;
+    
+}
+
+@media screen and (max-width: 360px){
+  .page-heading{
+    font-size: 30px;
+  }
+  .heading-box3{
+      margin-left: 27%;
+      width: 255px;
+  }
+  .container{
+      width: 90%;
+      margin-left: 7%;
+      margin-right: 3%;
+  }
+  .heading-box{
+      margin-left: 70px;
+      width: 230px;
+      height: 28px;
+  }
+  .right-footer{
+      display: none;
+  }
+  .left-footer{
+      margin-left: 26%;
+  }
+  .codeditch{
+      width: 100%;
+      border: none;
+      
+  }
+  .Little-Horcruxes{
+      margin-top: 100px;
+      width: 100%;
+      margin-bottom: 100px;
+  }
+  .heading-box2{
+      margin-top: 300px;
+      width: 260px;
+      height: 28px;
+      margin-left: 23%;
+  }
+  .box-heading2{
+      margin-top: 100px;
+      font-size: 30px;
+  }
+  .assignment-headings{
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+  }
+  .nav-logo{
+      margin-left: 3%;
+  }
+  .navbar{
+      display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+    .page-heading{
+        font-size: 30px;
+      }
+      .heading-box3{
+          margin-left: 27%;
+          width: 255px;
+      }
+      .container{
+          width: 90%;
+          margin-left: 7%;
+          margin-right: 3%;
+      }
+      .heading-box{
+          margin-left: 70px;
+          width: 230px;
+          height: 28px;
+      }
+      .right-footer{
+          display: none;
+      }
+      .left-footer{
+          margin-left: 26%;
+      }
+      .codeditch{
+          width: 100%;
+          border: none;
+          
+      }
+      .Little-Horcruxes{
+          margin-top: 100px;
+          width: 100%;
+          margin-bottom: 100px;
+      }
+      .heading-box2{
+          margin-top: 300px;
+          width: 260px;
+          height: 28px;
+          margin-left: 23%;
+      }
+      .box-heading2{
+          margin-top: 100px;
+          font-size: 30px;
+      }
+      .assignment-headings{
+          font-size: 30px;
+          font-weight: bold;
+          text-align: center;
+      }
+      .nav-logo{
+          margin-left: 3%;
+      }
+      .navbar{
+          display: none;
+      }
+} 
